@@ -1,0 +1,10 @@
+body {
+  background-image: linear-gradient(to right, #9D9D9D, #2C2C2C);
+  color: #FFF;
+  font-family: 'Montserrat', monospace;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
