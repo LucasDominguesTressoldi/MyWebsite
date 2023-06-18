@@ -1,6 +1,5 @@
 .about {
   display: flex;
-  height: 90vh;
   margin: 0 auto;
   width: 1077px;
 }
@@ -74,5 +73,6 @@
 }
 
 .content-texts p {
+  line-height: 1.1;
   margin: 5px 0 70px 15px;
 }
