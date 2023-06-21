@@ -1,0 +1,42 @@
+.timeline {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.arrow {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+}
+
+.line {
+  background-color: #FFF;
+  height: 15px;
+  width: 100%;
+}
+
+.dots-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  left: -1px;
+  position: absolute;
+  width: 80%;
+}
+
+.dot {
+  background-color: #4A4A4A;
+  border-radius: 50%;
+  border: 15px solid #FFF;
+  height: 30px;
+  width: 30px;
+}
+
+.arrow-tip {
+  border-bottom: 30px solid transparent;
+  border-left: 60px solid #FFF;
+  border-top: 30px solid transparent;
+}
