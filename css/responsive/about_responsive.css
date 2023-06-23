@@ -1,8 +1,4 @@
 @media (max-width: 1080px) {
-  .about {
-    width: 720px;
-  }
-
   .img-circle {
     height: 360px;
     width: 360px;
@@ -50,10 +46,6 @@
 }
 
 @media (max-width: 600px) {
-  .about {
-    width: 330px;
-  }
-
   .img-circle {
     height: 170px;
     width: 170px;
@@ -100,10 +92,6 @@
 }
 
 @media (max-width: 330px) {
-  .about {
-    width: 100%;
-  }
-
   .img-circle {
     display: none;
   }
