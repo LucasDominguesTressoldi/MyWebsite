@@ -1,7 +1,8 @@
 .about {
   display: flex;
   margin: 0 auto;
-  width: 1077px;
+  max-width: 1077px;
+  width: 100%;
 }
 
 .img-circle {
