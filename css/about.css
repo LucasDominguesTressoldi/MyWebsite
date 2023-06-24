@@ -1,17 +1,25 @@
 .about {
   display: flex;
+  justify-content: center;
   margin: 0 auto;
   max-width: 1077px;
   width: 100%;
 }
 
+.about-img {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
 .img-circle {
-  align-self: center;
   border-radius: 50%;
   box-shadow: 0px 0px 10px rgba(25, 25, 25, 0.5);
   height: 503px;
   overflow: hidden;
   position: relative;
+  margin-left: 5px;
   max-width: 503px;
   width: 100%;
 }
@@ -27,12 +35,10 @@
 }
 
 .about-content {
-  align-items: start;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   margin-left: 40px;
-  width: 524px;
+  width: 50%;
 }
 
 .about-icon div {
@@ -67,15 +73,18 @@
 }
 
 .content-icons img {
-  margin-bottom: 60px;
+  height: auto;
+  width: 60px;
 }
 
 .content-texts {
   font-size: 24px;
   font-weight: 400;
+  line-height: 1.1;
+  max-width: 400px;
+  width: 100%;
 }
 
-.content-texts p {
-  line-height: 1.1;
-  margin: 5px 0 70px 15px;
+.info {
+  margin: 0 5px 40px 5px;
 }

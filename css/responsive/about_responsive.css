@@ -1,103 +1,100 @@
 @media (max-width: 1080px) {
   .img-circle {
-    height: 360px;
-    width: 360px;
-  }
-
-  .content-texts p {
-    margin: 0 0 55px 15px;
+    height: 400px;
+    width: 400px;
   }
 }
 
 @media (max-width: 870px) {
-  .about {
-    width: 480px;
-  }
-
   .img-circle {
-    height: 220px;
-    width: 220px;
+    height: 300px;
+    width: 300px;
   }
 
-  .about-content {
+  .about-icon div {
+    height: 60px;
     width: 200px;
   }
 
   .about-icon p {
-    font-size: 20px;
+    font-size: 25px;
+  }
+
+  .about-content {
+    margin-left: 20px;
   }
 
   .about-content .name {
-    font-size: 25px;
-    margin: 40px 0 40px 0;
+    font-size: 30px;
+    margin: 40px 0;
   }
 
   .content-icons img {
     margin-bottom: 40px;
+    width: 40px;
   }
 
   .content-texts {
     font-size: 18px;
+    max-width: 233px;
   }
 
   .content-texts p {
-    margin: 0 0 25px 10px;
+    margin-bottom: 20px;
+  }
+
+  .info {
+    margin: 0 5px 0 5px;
   }
 }
 
 @media (max-width: 600px) {
   .img-circle {
-    height: 170px;
-    width: 170px;
-  }
-
-  .about-content {
-    margin-left: 30px;
-    width: 180px;
-  }
-
-  .about-icon div {
-    height: 39px;
-    width: 124px;
-  }
-
-  .about-icon p {
-    font-size: 14px;
-  }
-
-  .about-content .name {
-    font-size: 18px;
-    margin: 20px 0 20px 0;
-  }
-
-  .content-icons img {
-    height: 25px;
-    margin-bottom: 26px;
-    width: 25px;
-  }
-
-  .content-texts {
-    font-size: 12px;
-  }
-
-  .content-texts p {
-    margin: 0 0 10px 5px;
-  }
-}
-
-@media (max-width: 420px) {
-  .about-content {
-    margin-left: 10px;
-  }
-}
-
-@media (max-width: 330px) {
-  .img-circle {
-    display: none;
+    height: 200px;
+    margin-left: 5px;
+    width: 200px;
   }
 
   .about-content {
     align-items: center;
+    margin-left: 5px;
+  }
+
+  .about-icon div {
+    height: 40px;
+    width: 130px;
+  }
+
+  .about-icon p {
+    font-size: 16px;
+  }
+
+  .about-content .name {
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+  }
+
+  .content-icons img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .content-texts {
+    font-size: 12px;
+    max-width: 124px;
+  }
+
+  .info {
+    margin: 0 5px 30px 0;
+  }
+}
+
+@media (max-width: 330px) {
+  .about-img {
+    display: none;
+  }
+
+  .about-content {
     margin: 0 auto;
   }
 }
