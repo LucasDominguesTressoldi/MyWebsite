@@ -1,4 +1,8 @@
 @media (max-width: 870px) {
+  .home {
+    height: 70vh;
+  }
+
   .home .title {
     width: 500px;
   }
