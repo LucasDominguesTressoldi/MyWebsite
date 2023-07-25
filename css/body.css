@@ -8,3 +8,7 @@ a {
   color: #FFF;
   text-decoration: none;
 }
+
+.invisible {
+  display: none;
+}
