@@ -1,0 +1,41 @@
+.projects {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.projects-icon {
+  align-items: center;
+  background-color: #FFF;
+  border-radius: 20px;
+  display: flex;
+  height: 76px;
+  justify-content: center;
+  width: 242px;
+}
+
+.projects-title {
+  color: #000;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.projects-cards {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 80%;
+  justify-content: center;
+  margin: 20px 0;
+  width: 80%;
+}
+
+.cards {
+  background-color: #FFF;
+  border-radius: 20px;
+  height: 400px;
+  margin: 40px;
+  width: 40%;
+}
