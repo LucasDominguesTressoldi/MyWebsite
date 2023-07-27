@@ -29,18 +29,15 @@
     margin: 40px 0;
   }
 
-  .content-icons img {
+  .content-items img {
     margin-bottom: 40px;
     width: 40px;
   }
 
-  .content-texts {
+  .content-items p {
     font-size: 18px;
-    max-width: 233px;
-  }
-
-  .content-texts p {
     margin-bottom: 20px;
+    max-width: 233px;
   }
 
   .info {
@@ -74,12 +71,12 @@
     margin: 20px 0 20px 0;
   }
 
-  .content-icons img {
+  .content-items img {
     height: 30px;
     width: 30px;
   }
 
-  .content-texts {
+  .content-items p {
     font-size: 12px;
     max-width: 124px;
   }
@@ -96,5 +93,9 @@
 
   .about-content {
     margin: 0 auto;
+  }
+
+  .about-content .name {
+    font-size: 17px;
   }
 }

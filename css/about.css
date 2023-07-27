@@ -64,20 +64,23 @@
 }
 
 .content {
-  display: flex;
-}
-
-.content-icons {
+  align-items: self-start;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
-.content-icons img {
+.content-items {
+  display: flex;
+}
+
+.content-items img {
   height: auto;
+  overflow: auto;
   width: 60px;
 }
 
-.content-texts {
+.content-items p {
   font-size: 24px;
   font-weight: 400;
   line-height: 1.1;
