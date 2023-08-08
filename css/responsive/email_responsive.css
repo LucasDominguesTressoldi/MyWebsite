@@ -1,0 +1,61 @@
+@media (max-width: 1400px) {
+  .send-email {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .send-email:hover::before {
+    right: 100%;
+  }
+}
+
+@media (max-width: 870px) {
+  .send-email {
+    width: 70%;
+  }
+
+  .email-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .send-email {
+    width: 80%;
+  }
+
+  .email-text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .send-email {
+    width: 85%;
+  }
+}
+
+@media (max-width: 360px) {
+  .send-email {
+    width: 95%;
+  }
+
+  .email img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .email-title {
+    font-size: 24px;
+  }
+
+  .email-icon img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .email-text {
+    font-size: 15px;
+  }
+}
