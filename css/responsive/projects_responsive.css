@@ -1,0 +1,100 @@
+@media (max-width: 680px) {
+  .cards {
+    height: 700px;
+    width: 80%;
+  }
+
+  .cards-content {
+    align-items: center;
+    flex-direction: column;
+    height: 95%;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .card-title {
+    text-align: center;
+  }
+
+  .card-left,
+  .card-right {
+    width: 80%;
+  }
+
+}
+
+@media (max-width: 385px) {
+  .projects-icon {
+    height: 60px;
+  }
+
+  .projects-title {
+    font-size: 26px;
+  }
+
+  .card-main-icon {
+    height: 100px;
+    width: 100px;
+  }
+
+  .card-icons {
+    height: 40px;
+    width: 40px;
+  }
+
+  .github-button {
+    height: 60px;
+  }
+
+  .button-img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .button-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 330px) {
+  .projects-icon {
+    margin-top: 40px;
+    height: 40px;
+    width: 140px;
+  }
+
+  .projects-title {
+    font-size: 18px;
+  }
+
+  .card-main-icon {
+    height: 80px;
+    width: 80px;
+  }
+
+  .card-icons {
+    height: 30px;
+    width: 30px;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .card-description {
+    font-size: 16px;
+  }
+
+  .github-button {
+    height: 40px;
+  }
+
+  .button-img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .button-text {
+    font-size: 14px;
+  }
+}
