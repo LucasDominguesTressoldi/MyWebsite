@@ -78,13 +78,12 @@
   width: 52%;
 }
 
-.linkedin-icon {
+.linkedin-icon,
+.github-icon,
+.doc-icon {
+  color: #2C2C2C;
   position: relative;
   z-index: 1;
-}
-
-.linkedin-icon i {
-  color: #0078D4;
 }
 
 .linkedin-icon div[name="square"] {
